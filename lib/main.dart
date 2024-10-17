@@ -24,7 +24,7 @@ class _ToDoListAppState extends State<ToDoListApp> {
     return MaterialApp(
       title: 'To do list application from I-BIT',
       theme: ThemeData.light(),
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       home: SignInScreen(),
     );
   }
